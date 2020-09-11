@@ -13,6 +13,11 @@
 		48D26CF8250A7F9D00102031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D26CF6250A7F9D00102031 /* Main.storyboard */; };
 		48D26CFA250A7F9D00102031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D26CF9250A7F9D00102031 /* Assets.xcassets */; };
 		48D26CFD250A7F9D00102031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D26CFB250A7F9D00102031 /* LaunchScreen.storyboard */; };
+		48D26D05250AA05200102031 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 48D26D04250AA05200102031 /* 1.mp4 */; };
+		48D26D07250AA06100102031 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 48D26D06250AA06100102031 /* 2.mp4 */; };
+		48D26D09250AA06900102031 /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 48D26D08250AA06900102031 /* 3.mp4 */; };
+		48D26D0B250B693400102031 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D26D0A250B693400102031 /* VideoCollectionViewCell.swift */; };
+		48D26D0E250B6A1200102031 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D26D0D250B6A1200102031 /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		48D26CF9250A7F9D00102031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48D26CFC250A7F9D00102031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48D26CFE250A7F9D00102031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D26D04250AA05200102031 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		48D26D06250AA06100102031 /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		48D26D08250AA06900102031 /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
+		48D26D0A250B693400102031 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		48D26D0D250B6A1200102031 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,10 @@
 		48D26CEF250A7F9D00102031 /* ReelsFeed */ = {
 			isa = PBXGroup;
 			children = (
+				48D26D0C250B69F700102031 /* Models */,
+				48D26D04250AA05200102031 /* 1.mp4 */,
+				48D26D06250AA06100102031 /* 2.mp4 */,
+				48D26D08250AA06900102031 /* 3.mp4 */,
 				48D26CF0250A7F9D00102031 /* AppDelegate.swift */,
 				48D26CF2250A7F9D00102031 /* SceneDelegate.swift */,
 				48D26CF4250A7F9D00102031 /* ViewController.swift */,
@@ -63,8 +77,17 @@
 				48D26CF9250A7F9D00102031 /* Assets.xcassets */,
 				48D26CFB250A7F9D00102031 /* LaunchScreen.storyboard */,
 				48D26CFE250A7F9D00102031 /* Info.plist */,
+				48D26D0A250B693400102031 /* VideoCollectionViewCell.swift */,
 			);
 			path = ReelsFeed;
+			sourceTree = "<group>";
+		};
+		48D26D0C250B69F700102031 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				48D26D0D250B6A1200102031 /* VideoModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D26D07250AA06100102031 /* 2.mp4 in Resources */,
 				48D26CFD250A7F9D00102031 /* LaunchScreen.storyboard in Resources */,
+				48D26D05250AA05200102031 /* 1.mp4 in Resources */,
+				48D26D09250AA06900102031 /* 3.mp4 in Resources */,
 				48D26CFA250A7F9D00102031 /* Assets.xcassets in Resources */,
 				48D26CF8250A7F9D00102031 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +166,8 @@
 			files = (
 				48D26CF5250A7F9D00102031 /* ViewController.swift in Sources */,
 				48D26CF1250A7F9D00102031 /* AppDelegate.swift in Sources */,
+				48D26D0B250B693400102031 /* VideoCollectionViewCell.swift in Sources */,
+				48D26D0E250B6A1200102031 /* VideoModel.swift in Sources */,
 				48D26CF3250A7F9D00102031 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
