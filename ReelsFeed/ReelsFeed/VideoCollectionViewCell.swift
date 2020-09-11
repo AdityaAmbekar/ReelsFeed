@@ -159,6 +159,12 @@ class VideoCollectionViewCell: UICollectionViewCell {
         commentButton.frame = CGRect(x: width - size , y: height - (size*2)-10, width: size, height: size)
         likeButton.frame = CGRect(x: width - size , y: height - (size*3)-10, width: size, height: size)
         profileButton.frame = CGRect(x: width - size , y: height - (size*4)-10, width: size, height: size)
+        
+        //labels
+        audioTrackLabel.frame = CGRect(x: 5, y: height-30, width: width - size - 10, height:  50)
+        captionLabel.frame = CGRect(x: 5, y: height-80, width: width - size - 10, height:  50)
+        usenameLabel.frame = CGRect(x: 5, y: height-120, width: width - size - 10, height:  50)
+
     }
     
     override func prepareForReuse() {
